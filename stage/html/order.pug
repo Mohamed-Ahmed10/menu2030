@@ -1,0 +1,18 @@
+- var pageTitle = 'الطلب';
+<!DOCTYPE html>
+html(lang="ar")
+    head
+        include pug/layout/meta
+        include pug/layout/fonts
+        include pug/layout/styles
+    body
+        include pug/layout/sidebar
+        include pug/layout/header
+        section#order
+            .row.content
+                img.img-fluid(src="images/order.png", alt="order photo")
+                h5 أدخل رقمك الهاتف النقال
+                input(type="number" , placeholder="رقم الهاتف" , autofocus="")
+                button إرسال
+        include pug/layout/footer
+        include pug/layout/scripts

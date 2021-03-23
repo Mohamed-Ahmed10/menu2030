@@ -1,0 +1,35 @@
+// variables
+@import 'sass/variables/variables';
+
+//components
+@import 'sass/components/button';
+@import 'sass/components/input';
+@import 'sass/components/page_title';
+@import 'sass/components/bill_container';
+@import 'sass/components/counter';
+@import 'sass/components/confirmation';
+@import 'sass/components/size';
+@import 'sass/components/additions_container';
+@import 'sass/components/basket_product';
+
+//layout 
+@import 'sass/layout/header';
+@import 'sass/layout/sidebar';
+@import 'sass/layout/footer';
+@import 'sass/layout/global';
+
+// pages
+@import 'sass/pages/home';
+@import 'sass/pages/menu';
+@import 'sass/pages/waiter';
+@import 'sass/pages/order';
+@import 'sass/pages/ready_order';
+@import 'sass/pages/bill.scss';
+@import 'sass/pages/waiting';
+@import 'sass/pages/not_found';
+@import 'sass/pages/about_us';
+@import 'sass/pages/table_reserve';
+@import 'sass/pages/food_menu';
+@import 'sass/pages/meal';
+@import 'sass/pages/restourants';
+@import 'sass/pages/basket';

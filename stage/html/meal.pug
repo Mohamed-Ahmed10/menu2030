@@ -1,0 +1,48 @@
+- var pageTitle = 'صفحة الوجبة';
+<!DOCTYPE html>
+html(lang="en")
+    head
+        include pug/layout/meta
+        include pug/layout/fonts
+        include pug/layout/styles
+    body
+        include pug/layout/sidebar
+        include pug/layout/header
+        section#meal
+            h2 بيتزا البيربونى
+            .meal_preview
+            p بيتزا إيطالية و أمريكية الأصل شهية المذاق تتكون  من لحم البيبروني و الجبن الطازج مع بهارات مشكلة لإعطاء مذاق حار
+            .row.content
+                button.add_to_order 
+                    span.one إضافات على الطلب
+                    span.two تمت الإضافة                
+            .row
+                .col.col-sm-4.col-xs-4.col-md-4
+                    .size_container
+                        h6 المقاسات 
+                        include pug/components/size
+                .col.col-sm-4.col-xs-4.col-md-4
+                    .quantity
+                        h6 الكمية
+                        include pug/components/counter
+                .col.col-sm-4.col-xs-4.col-md-4
+                    .cost
+                        h6 السعر الإجمالى
+                        div
+                            span
+                                | sar 
+                            span
+                                | 74 
+            .row.content
+                button.add_to_basket
+                    span.one إضافة للسلة
+                    span.two تمت الاضافة للسلة
+        include pug/layout/footer
+        include pug/components/additions_container
+        include pug/components/confirmation
+        .confirmation_container2
+            .confirmation
+                img(src="icons/check.svg", alt="confirmation check")
+                h3 #{confirmation}
+                button.ok2 حسناً
+        include pug/layout/scripts

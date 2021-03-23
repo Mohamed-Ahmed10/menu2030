@@ -1,0 +1,31 @@
+button
+{
+    min-width:150px;
+    height: 50px;
+    max-width: 200px;
+    border: 2px solid $white-color;
+    background-color: $main-color;
+    border-radius: 23px;
+    -webkit-border-radius: 23px;
+    -moz-border-radius: 23px;
+    -ms-border-radius: 23px;
+    -o-border-radius: 23px;
+    outline: none;
+    background: linear-gradient( $light-green-one , $light-green-two);
+    margin-top: 10px !important;
+    margin-bottom: 30px !important;
+    color: $black-two;
+    font-weight: bold;
+
+    :focus
+    {
+        outline: none !important;
+        border: none;
+    }
+
+    @media (max-width: 575.98px)
+    {
+        width: 170px;
+        height: 35px;
+    }
+}

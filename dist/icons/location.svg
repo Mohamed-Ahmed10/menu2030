@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="60" height="60" viewBox="0 0 60 60">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#510016"/>
+      <stop offset="0.021" stop-color="#510016"/>
+      <stop offset="1" stop-color="#8b0016"/>
+    </linearGradient>
+    <clipPath id="clip-الخريطة">
+      <rect width="60" height="60"/>
+    </clipPath>
+  </defs>
+  <g id="الخريطة" clip-path="url(#clip-الخريطة)">
+    <rect width="60" height="60" fill="#fff"/>
+    <g id="Group_3259" data-name="Group 3259" transform="translate(-3)">
+      <path id="Path_19701" data-name="Path 19701" d="M891.961,528.1h0a30,30,0,0,1-30-30h0a30,30,0,0,1,30-30h0a30,30,0,0,1,30,30h0A30,30,0,0,1,891.961,528.1Z" transform="translate(-858.96 -468.1)" fill="#fafafa"/>
+      <path id="Path_19702" data-name="Path 19702" d="M884.5,475.079a11.521,11.521,0,0,0-11.52,11.52c0,6.362,11.52,23.15,11.52,23.15s11.52-16.788,11.52-23.15A11.521,11.521,0,0,0,884.5,475.079Zm0,16.428a5.416,5.416,0,1,1,5.416-5.416A5.416,5.416,0,0,1,884.5,491.507Z" transform="translate(-851.803 -462.502)" fill="url(#linear-gradient)"/>
+    </g>
+  </g>
+</svg>

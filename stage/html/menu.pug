@@ -1,0 +1,35 @@
+- var pageTitle = 'المنيو';
+<!DOCTYPE html>
+html(lang="ar")
+    head
+        include pug/layout/meta
+        include pug/layout/fonts
+        include pug/layout/styles
+    body
+        include pug/layout/sidebar
+        include pug/layout/header
+        section#menu
+            div
+                .row.content
+                    .col-4
+                        a(href="food-menu.html")
+                            .product.cold_drinks
+                                img(src="images/idam.jpg", alt="photo name")
+                            h3 مشروبات باردة
+                    .col-4
+                        a(href="food-menu.html")
+                            .product.barbecue
+                                img(src="images/idam.jpg", alt="photo name")
+                            h3 مشويات
+                    .col-4
+                        a(href="food-menu.html")
+                            .product.pizza
+                                img(src="images/idam.jpg", alt="photo name")
+                            h3 بيتزا
+                    .col-4
+                        a(href="food-menu.html")
+                            .product.pizza
+                                img(src="images/idam.jpg", alt="photo name")
+                            h3 بيتزا
+        include pug/layout/footer
+        include pug/layout/scripts

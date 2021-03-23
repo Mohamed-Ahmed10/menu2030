@@ -1,0 +1,27 @@
+#bill
+{
+    .content
+    {
+        flex-direction: column;
+        text-align: center;
+
+        h2
+        {
+            font-size: 42px;
+
+            @media (max-width: 575.98px) 
+            {
+                font-size: 32px;
+            }
+        }
+        img , input , button
+        {
+            margin: auto;
+        }
+        
+    }
+    h4
+    {
+        margin: 10px 0;
+    }
+}

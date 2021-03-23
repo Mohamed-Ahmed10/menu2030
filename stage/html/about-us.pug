@@ -1,0 +1,21 @@
+- var pageTitle = 'من نحن';
+<!DOCTYPE html>
+html(lang="ar")
+    head
+        include pug/layout/meta
+        include pug/layout/fonts
+        include pug/layout/styles
+    body
+        include pug/layout/sidebar
+        include pug/layout/header
+        section#about_us 
+            include pug/components/page_title
+            .description
+                h2 تعريف بالمطعم
+                p مطعم منيو 2030 يعد من أفضل المطاعم على مستوى المملكة العربية السعودية و الذي يقع في مدينة جدة نتميز بتقديمنا لأشهى المأكولات التقليدية و العالمية 
+                h2 خدماتنا
+                p تقديم أفضل خدمة مطاعم على المستوى الوطني
+                h2 أهدافنا
+                p تقديم أفضل خدمة للزبائن و السعي على راحتهم و طبخ أشهى المأكولات
+        include pug/layout/footer
+        include pug/layout/scripts

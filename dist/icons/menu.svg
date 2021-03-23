@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="60" height="60" viewBox="0 0 60 60">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#510016"/>
+      <stop offset="0.021" stop-color="#510016"/>
+      <stop offset="1" stop-color="#8b0016"/>
+    </linearGradient>
+    <clipPath id="clip-المنيو">
+      <rect width="60" height="60"/>
+    </clipPath>
+  </defs>
+  <g id="المنيو" clip-path="url(#clip-المنيو)">
+    <rect width="60" height="60" fill="#fff"/>
+    <g id="Group_3266" data-name="Group 3266" transform="translate(-512 -368)">
+      <circle id="Ellipse_74" data-name="Ellipse 74" cx="30" cy="30" r="30" transform="translate(512 368)" fill="#fff"/>
+      <path id="Union_7" data-name="Union 7" d="M951.01,635.5a2.842,2.842,0,1,1,2.842,2.842h0A2.842,2.842,0,0,1,951.01,635.5Zm-25.417,2.578a1.741,1.741,0,0,1-1.741-1.741v-1.74a1.741,1.741,0,0,1,1.741-1.741h20.884a1.741,1.741,0,0,1,1.741,1.741h0v1.74a1.741,1.741,0,0,1-1.741,1.741H925.593Zm0-10.442a1.741,1.741,0,0,1-1.741-1.74h0v-1.74a1.739,1.739,0,0,1,1.739-1.739h20.886a1.741,1.741,0,0,1,1.741,1.741h0v1.738a1.741,1.741,0,0,1-1.741,1.741H925.593Zm25.418-2.871a2.842,2.842,0,1,1,2.842,2.841h0a2.842,2.842,0,0,1-2.842-2.841Zm0-10.1a2.842,2.842,0,1,1,2.842,2.841h0a2.842,2.842,0,0,1-2.842-2.841Zm-25.417,2.534a1.741,1.741,0,0,1-1.741-1.741v-1.74a1.74,1.74,0,0,1,1.74-1.74h20.885a1.741,1.741,0,0,1,1.741,1.741h0v1.74a1.74,1.74,0,0,1-1.74,1.741H925.594Z" transform="translate(-398.525 -226.887)" fill="url(#linear-gradient)"/>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,91 @@
+body {
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -o-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    direction: rtl;
+    background-color: $black-one;
+}
+*
+{
+    font-family:  'Cairo', sans-serif ;
+    color : $white-color;
+    user-select: none;
+    font-weight: bold;
+}
+::-webkit-scrollbar {
+    display: none
+}
+#about_us , #bill , 
+#meal , #not_found ,
+#order , #ready_order ,
+#table_reserve , #menu 
+#waiter , #waiting ,
+#restourants , #menu ,
+#food_menu , #basket ,
+#home
+{
+    overflow: scroll !important;
+    padding-bottom: 100px;
+
+    @media ( max-width : 768px)
+    {
+        height: calc(100vh - 140px);        
+    }
+    @media (min-width: 768px) and (max-width: 1199.98px)
+    {
+        height: calc(100vh - 200px);
+    }
+}
+.row
+{
+    margin: 0;
+}
+.content .img-fluid
+{
+    @media (max-width: 575.98px) 
+    {
+        width: 60%;
+    }
+}
+.site_logo
+{
+    height: 80px;
+    width: 190px;
+
+    @media (max-width: 575.98px) 
+    {
+        height: 55px
+    }
+}
+a:hover
+{
+    text-decoration: none;
+}
+.icon
+{
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    width : 60px;
+    
+    @media (max-width: 575.98px)
+    {
+        width: 45px;
+    }
+}
+h1 , h2 , h3 ,
+h4 , h5 , h6
+{
+    font-weight: bold;
+}
+h3
+{
+    @media (max-width : 575px)
+    {
+        font-size: 16px;
+    }
+}

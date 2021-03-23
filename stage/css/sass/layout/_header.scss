@@ -1,0 +1,44 @@
+header
+{
+    height: 100px;
+    width: 100%;
+    background: linear-gradient(to top right,$main-two 0%, $main-one 100%);
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+
+    @media (max-width: 575.98px)
+    {
+        height: 70px;
+    }
+    
+    .container-fluid
+    {
+        padding-right: 40px;
+        padding-left: 40px;
+        
+        .row 
+        {
+            >div:nth-child(1)
+            {
+                justify-content: flex-end;
+            }
+            >div:nth-child(3)
+            {
+                justify-content: end;
+            }
+            > div
+            {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                padding: 0;
+
+                .open
+                {
+                    cursor: pointer;
+                }
+            }
+        }
+    }
+}

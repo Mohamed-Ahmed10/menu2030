@@ -1,0 +1,66 @@
+#waiting_page
+{
+    .content
+    {
+        flex-direction: column;
+        text-align: center;
+
+        h2
+        {
+            font-size: 42px;
+        }
+        img , input , button , >div
+        {
+            margin: auto;
+        }
+        img
+        {
+            @media (max-width: 575.98px)
+            {
+                width:70%
+            }
+        }
+        input 
+        {
+            @media (max-width: 575.98px)
+            {
+                margin-bottom: 20px !important;
+            }
+        }
+        .order_number
+        {
+            width: 400px;
+            height: 200px;
+            font-size: 150px;
+            background-color: $main-color;
+            border-radius: 23px;
+            -webkit-border-radius: 23px;
+            -moz-border-radius: 23px;
+            -ms-border-radius: 23px;
+            -o-border-radius: 23px;
+            font-weight: bold;
+            display: flex;
+            justify-content: center; 
+            align-items: center;
+            margin-top: 20px !important;
+            margin-bottom: 20px !important;
+
+            @media (max-width: 575.98px) 
+            {
+                width: 330px;
+                height: 120px;
+                font-size: 120px;
+            }
+        }
+        button
+        {
+            background: linear-gradient( $light-green-one , $light-green-two);
+            margin-bottom: 20px;
+        }
+        button:hover
+        {
+            background: linear-gradient($dark-green-one , $dark-green-two);
+        }
+        
+    }
+}

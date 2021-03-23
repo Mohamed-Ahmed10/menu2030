@@ -1,0 +1,25 @@
+.page_title
+{
+    width:200px;
+    min-height: 50px;
+    border: 2px solid $white-color;
+    background: linear-gradient($main-one , $main-two);
+    border-radius: 23px;
+    -webkit-border-radius: 23px;
+    -moz-border-radius: 23px;
+    -ms-border-radius: 23px;
+    -o-border-radius: 23px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px !important;
+    margin-bottom: 20px !important;
+    margin:auto;
+
+    @media (max-width: 575.98px)
+    {
+        width: 130px;
+        min-height: 40px;
+    }
+}

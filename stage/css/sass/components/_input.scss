@@ -1,0 +1,30 @@
+input
+{
+    padding-right: 10px;
+    outline: none;
+    color: $black-one;
+    margin-top: 10px !important;
+    margin-bottom: 40px !important;
+    width: 400px;
+    height: 60px;
+    border-radius: 35px;
+    -webkit-border-radius: 35px;
+    -moz-border-radius: 35px;
+    -ms-border-radius: 35px;
+    -o-border-radius: 35px;
+    margin: auto;
+
+    @media (max-width: 575.98px) 
+    {
+        width:250px;
+        height: 45px;
+    }
+        
+    ::placeholder
+    {
+        text-align: right;
+        font-weight: bold !important;
+        padding-right: 15px;
+    }
+}
+

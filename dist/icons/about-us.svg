@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="60" height="60" viewBox="0 0 60 60">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#510016"/>
+      <stop offset="0.021" stop-color="#510016"/>
+      <stop offset="1" stop-color="#8b0016"/>
+    </linearGradient>
+    <clipPath id="clip-من_نحن">
+      <rect width="60" height="60"/>
+    </clipPath>
+  </defs>
+  <g id="من_نحن" data-name="من نحن" clip-path="url(#clip-من_نحن)">
+    <rect width="60" height="60" fill="#fff"/>
+    <g id="Group_3288" data-name="Group 3288" transform="translate(-512 -835)">
+      <circle id="Ellipse_80" data-name="Ellipse 80" cx="30" cy="30" r="30" transform="translate(512 835)" fill="#fff"/>
+      <g id="Group_3285" data-name="Group 3285" transform="translate(-260.112 -61.404)">
+        <g id="Group_3284" data-name="Group 3284" transform="translate(786.969 911.223)">
+          <path id="Path_19715" data-name="Path 19715" d="M817.286,922.092l-6.244-1.422-1.529,8.744a15.728,15.728,0,0,0-5-2.286,10.363,10.363,0,0,0,4.3-8.132,7.772,7.772,0,1,0-15.544,0,10.359,10.359,0,0,0,4.3,8.132c-6.089,1.544-10.6,6.83-10.6,10.746,0,4.631,28.144,4.631,28.144,0a7.813,7.813,0,0,0-1.172-3.807Zm-5.3,0,3.837.874L812.8,933.773l-2.751-.626Zm-10.944,19.257L797.1,937.4l3.319-8.124h-.034l-1.29-1.377a5.477,5.477,0,0,0,3.892,0l-1.289,1.565h-.032l3.319,7.934Zm11.76-4a2.214,2.214,0,1,1-1.648-2.685A2.13,2.13,0,0,1,812.8,937.35Z" transform="translate(-786.969 -911.223)" fill="url(#linear-gradient)"/>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

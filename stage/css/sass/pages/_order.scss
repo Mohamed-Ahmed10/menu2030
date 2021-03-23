@@ -1,0 +1,23 @@
+#order
+{
+    .content
+    {
+        flex-direction: column;
+        text-align: center; 
+
+        img , input , button
+        {
+            margin: auto;
+        }
+        button
+        {
+            background: linear-gradient($light-green-one , $light-green-two);
+            margin-bottom: 20px;
+        }
+        button:hover
+        {
+            background: linear-gradient($dark-green-one , $dark-green-two);
+        }
+        
+    }
+}

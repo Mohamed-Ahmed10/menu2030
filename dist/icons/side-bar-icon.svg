@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="60" height="60" viewBox="0 0 60 60">
+  <defs>
+    <linearGradient id="linear-gradient" x1="1" y1="0.038" x2="0" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#510016"/>
+      <stop offset="0.021" stop-color="#510016"/>
+      <stop offset="1" stop-color="#8b0016"/>
+    </linearGradient>
+    <clipPath id="clip-القائمة_الجانبية">
+      <rect width="60" height="60"/>
+    </clipPath>
+  </defs>
+  <g id="القائمة_الجانبية" data-name="القائمة الجانبية" clip-path="url(#clip-القائمة_الجانبية)">
+    <rect width="60" height="60" fill="#fff"/>
+    <g id="Group_23" data-name="Group 23" transform="translate(-517 -168)">
+      <path id="Path_20876" data-name="Path 20876" d="M30,0A30,30,0,1,1,0,30,30,30,0,0,1,30,0Z" transform="translate(517 168)" fill="#fff"/>
+      <g id="Group_3260" data-name="Group 3260">
+        <rect id="Rectangle_31" data-name="Rectangle 31" width="14" height="14" rx="3" transform="translate(532 183)" fill="url(#linear-gradient)"/>
+        <rect id="Rectangle_32" data-name="Rectangle 32" width="14" height="14" rx="3" transform="translate(548 183)" fill="url(#linear-gradient)"/>
+        <rect id="Rectangle_33" data-name="Rectangle 33" width="14" height="14" rx="3" transform="translate(548 199)" fill="url(#linear-gradient)"/>
+        <rect id="Rectangle_34" data-name="Rectangle 34" width="14" height="14" rx="3" transform="translate(532 199)" fill="url(#linear-gradient)"/>
+      </g>
+    </g>
+  </g>
+</svg>

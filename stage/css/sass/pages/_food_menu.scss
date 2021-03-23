@@ -1,0 +1,64 @@
+#food_menu
+{
+    .content >div
+    {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .food_type
+    {
+        height: 150px;
+        background-image: url('../images/pizza.jpg');
+        background-size: cover;
+        margin: 3% 8%;
+        border: 1px solid $main-color;
+        border-radius: 10px;
+        -webkit-border-radius: 10px;
+        -moz-border-radius: 10px;
+        -ms-border-radius: 10px;
+        -o-border-radius: 10px;
+        position: relative;
+
+        @media(max-width: 767.98px)
+        {
+            height: 110px;
+            margin: 0;
+        }
+    }
+    .type_price
+    {
+        position: absolute;
+        bottom: 25px;
+        left: 30px;
+        min-width: 50px;
+        height: 20px;
+        background:linear-gradient($yellow-one , $yellow-two);
+        text-align: center;
+        border-radius: 20px;
+        line-height: 100%;
+        text-transform: uppercase;
+        border: 1px solid $main-two;
+
+        @media (max-width: 575.98px)
+        {
+            bottom: 5px;
+            left: 5px;
+            font-size: 15px;
+            padding: 2px;
+        }
+
+        >span
+        {
+            color: $black-one;
+            font-weight: bold;
+        }
+    }
+    h3 
+    {
+        text-align: center;
+    }
+    @media (max-width: 576px)
+    {
+        padding-bottom: 150px;
+    }
+}

@@ -1,0 +1,40 @@
+footer
+{
+    width: 100%;
+    height: 100px;
+    background: linear-gradient(to top right, $main-one 0%, $main-two 100%);;
+    display: flex;
+    align-items: center;
+
+    @media (max-width: 575.98px)
+    {
+        margin-top: 10px;
+        height: 70px;
+    }
+
+    @media (max-width: 1200px)
+    {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+    }
+    .col
+    {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        place-content: space-evenly;
+        padding: 0;
+
+        @media (max-width : 575.98px)
+        {
+            justify-content: space-between;
+            place-content: flex-end;
+        }
+        
+        .icon
+        {
+            margin-right: 5px;
+        }
+    }
+}

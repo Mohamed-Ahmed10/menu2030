@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="60" height="60" viewBox="0 0 60 60">
+  <defs>
+    <linearGradient id="linear-gradient" y1="0.5" x2="1" y2="0.5" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#510016"/>
+      <stop offset="0.021" stop-color="#510016"/>
+      <stop offset="1" stop-color="#8b0016"/>
+    </linearGradient>
+    <clipPath id="clip-حجز_طاولة">
+      <rect width="60" height="60"/>
+    </clipPath>
+  </defs>
+  <g id="حجز_طاولة" data-name="حجز طاولة" clip-path="url(#clip-حجز_طاولة)">
+    <rect width="60" height="60" fill="#fff"/>
+    <g id="Group_3270" data-name="Group 3270" transform="translate(-512 -682)">
+      <circle id="Ellipse_78" data-name="Ellipse 78" cx="30" cy="30" r="30" transform="translate(512 682)" fill="#fff"/>
+      <path id="Union_7" data-name="Union 7" d="M944.918,1366.557a5.669,5.669,0,0,1-4.436,2.083v-2.079a3.232,3.232,0,0,0,3.327-3.118v-2.183a2.1,2.1,0,0,1,2.218,0v2.183a3.232,3.232,0,0,0,3.327,3.118v2.079A5.671,5.671,0,0,1,944.918,1366.557Zm5.916-7.9a18.719,18.719,0,0,0-8.874.724,6.4,6.4,0,0,0-5.915,0,6.258,6.258,0,0,1-3.624-1.132l-.586-.411,2.6-9.984H955.4l2.6,9.984-.585.411a6.381,6.381,0,0,1-6.581.408Zm-7.025-12.882v-2.218H936.34v-10.4H953.5v10.4h-7.468v2.218Zm-3.032-6.376h8.282v-2.079h-8.282Z" transform="translate(-403 -639)" fill="url(#linear-gradient)"/>
+    </g>
+  </g>
+</svg>

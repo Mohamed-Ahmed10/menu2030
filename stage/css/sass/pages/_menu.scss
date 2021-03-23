@@ -1,0 +1,53 @@
+#menu
+{
+    padding-bottom: 150px;
+    .content
+    {
+        padding: 10px 0;
+
+        .col
+        {
+            padding: 0
+        }
+    }
+    .product
+    {
+        width: 85%;
+        height: 180px;
+        background-size: cover;
+        border: 1px solid $main-color;
+        border-radius: 20px;
+        -webkit-border-radius: 20px;
+        -moz-border-radius: 20px;
+        -ms-border-radius: 20px;
+        -o-border-radius: 20px;
+        overflow: hidden;
+        margin : auto;
+
+        @media (max-width : 575px)
+        {
+            height: 100px;
+            width: 100px;
+            margin: auto;        
+        }
+        @media (min-width: 575.98px) and (max-width: 767.98px)
+        {
+            height: 170px;
+            width: 170px;
+        }
+        img
+        {
+            height: 100%;
+            width: 100%;
+        }
+    }
+    h3
+    {
+        text-align: center;
+
+        @media (max-width: 767.98px)
+        {
+            padding-top: 5px ;
+        }
+    }
+}

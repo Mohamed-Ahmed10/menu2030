@@ -1,0 +1,26 @@
+- var pageTitle = 'سلة الشراء';
+- var confirmation = 'سوف يتم إشعارك فور إقتراب رقمك';
+<!DOCTYPE html>
+html(lang="ar")
+    head
+        include pug/layout/meta
+        include pug/layout/fonts
+        include pug/layout/styles 
+    body
+        include pug/layout/sidebar
+        include pug/layout/header
+        section#basket
+            .row
+                include pug/components/page_title
+                include pug/components/basket_product
+                include pug/components/basket_product
+                include pug/components/basket_product
+                include pug/components/basket_product
+                .total
+                    div السعر الإجمالى
+                    .price  
+                        span 74
+                        span sar
+                button إطلب الآن
+        include pug/layout/footer
+        include pug/layout/scripts

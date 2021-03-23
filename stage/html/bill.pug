@@ -1,0 +1,18 @@
+- var pageTitle = 'الفاتورة';
+<!DOCTYPE html>
+html(lang="ar")
+    head
+        include pug/layout/meta
+        include pug/layout/fonts
+        include pug/layout/styles
+    body
+        include pug/layout/sidebar
+        include pug/layout/header
+        section#bill
+            .content
+                img.img-fluid(src="images/bill.png", alt="bill photo")
+                h2 طلبك جاهز للإستلام
+                include pug/components/bill_container
+                button تم
+        include pug/layout/footer
+        include pug/layout/scripts

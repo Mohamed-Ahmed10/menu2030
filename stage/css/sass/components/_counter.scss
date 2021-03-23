@@ -1,0 +1,49 @@
+.counter
+{
+    min-height: 50px;
+    width: 150px;
+    border-radius: 23px; 
+    -webkit-border-radius: 23px;
+    -moz-border-radius: 23px;
+    -ms-border-radius: 23px;
+    -o-border-radius: 23px;
+    margin-top: 10px !important;
+    margin-bottom: 30px !important;
+    color: $black-two;
+    background: $white-color;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 5px;
+
+    @media (max-width: 576px)
+    {
+        width: 80px;
+        min-height: 30px;
+    }
+
+    >div
+    {
+        color: $black-one;
+        font-size: 30px;
+        font-weight: bold;
+        flex: auto;
+        text-align: center;
+
+        @media (max-width: 575.98px)
+        {
+            font-size: 20px;
+        }
+    }
+    img
+    {
+        width: 25px;
+        margin: 5px;
+        cursor: pointer;
+
+        @media (max-width: 576px)
+        {
+            width: 10px;
+        }
+    }
+}

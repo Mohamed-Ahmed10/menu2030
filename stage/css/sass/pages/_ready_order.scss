@@ -1,0 +1,31 @@
+#ready_order
+{
+    .content
+    {
+        flex-direction: column;
+        text-align: center;
+
+        h2
+        {
+            font-size: 42px;
+        }
+        img , input , button
+        {
+            margin: auto;
+        }
+        button
+        {
+            background: linear-gradient($light-green-one , $light-green-two);
+            margin-bottom: 20px;
+        }
+        button:hover
+        {
+            background: linear-gradient($dark-green-one , $dark-green-two);
+        }
+        
+    }
+    @media (max-width: 576px)
+    {
+        padding-bottom: 40px;
+    }
+}

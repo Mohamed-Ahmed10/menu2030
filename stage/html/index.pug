@@ -1,0 +1,55 @@
+- var pageTitle = 'منيو 2030';
+<!DOCTYPE html>
+html(lang="ar")
+    head
+        include pug/layout/meta
+        include pug/layout/fonts
+        include pug/layout/styles
+    body
+        include pug/layout/sidebar
+        include pug/layout/header
+        section#home.home
+            .restourant
+                img(src="images/restourant.jpg", alt="restourant image")
+                button(onclick="window.location.href='restourants.html';") مشاهدة المزيد
+            .product_container
+                .row
+                    .col-xs
+                        .product
+                            a(href="")
+                                img(src="images/pizza.jpg", alt="بيتزا")
+                                h3 بيتزا
+                    .col-xs
+                        .product 
+                            a(href="")
+                                img(src="images/barbecue.jpg", alt="مشويات")
+                                h3 مشويات
+                    .col-xs
+                        .product
+                            a(href="")
+                                img(src="images/pasta.jpg", alt="باستا")
+                                h3 باستا 
+                    .col-xs
+                        .product
+                            a(href="")
+                                img(src="images/steak.jpg", alt="ستيك")
+                                h3 ستيك 
+                    .col-xs
+                        .product
+                            a(href="")
+                                img(src="images/idam.jpg", alt="إيدام")
+                                h3 إيدام
+            .offers_container
+                .row
+                    .col
+                        .offers
+                            a(href="")
+                                img(src="images/recommended.jpg", alt="موصى به")
+                                h3 موصى به
+                    .col
+                        .offers
+                            a(href="")
+                                img(src="images/offers.jpg", alt="العروض")
+                                h3 العروض الخاصة
+        include pug/layout/footer
+        include pug/layout/scripts

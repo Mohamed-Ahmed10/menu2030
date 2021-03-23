@@ -1,0 +1,33 @@
+#table_reserve
+{
+    .content
+    {
+        flex-direction: column;
+        text-align: center;
+
+        .tables_chairs_container
+        {
+            display: flex;
+            justify-content: center;
+
+            .count_tables , 
+            .count_chairs
+            {
+                margin: 10px; 
+            }
+            
+        }
+        button 
+            {
+                margin: auto;
+            }
+    }
+    input
+    {
+        margin-bottom: 20px !important;
+    }
+    @media (max-width: 576px)
+    {
+        padding-bottom: 40px;
+    }
+}

@@ -1,0 +1,185 @@
+#meal
+{
+    @media (max-width: 576px)
+    {
+        padding-bottom: 50px;
+    }
+    .add_to_order
+    {
+        background:linear-gradient($yellow-one , $yellow-two);
+    }
+    .meal_preview
+    {
+        width: 85%;
+        height: 300px;
+        background-image: url('../images/pizza.jpg'); 
+        background-size: cover;
+        margin: auto;
+        border: 1px solid $main-color;
+        border-radius: 20px; 
+        -webkit-border-radius: 20px;
+        -moz-border-radius: 20px;
+        -ms-border-radius: 20px;
+        -o-border-radius: 20px;
+
+        @media (max-width: 576px)
+        {
+            height: 170px;
+            width: 300px;
+        }
+    }
+    h2
+    {
+        text-align: right;
+        padding-right: 40px;
+        margin: 10px;
+
+        @media (max-width: 576px)
+        {
+            font-size: 1rem;
+            padding-right: 40px;
+        }
+    }
+    p
+    {
+        text-align: right;
+        padding-right: 40px;
+        margin: 10px;
+        font-size: 20px;
+
+        @media (max-width: 576px)
+        {
+            font-size: 10px;
+            padding-right: 20px;
+        }
+    }
+    .row.content
+    {
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+
+        .additions
+        {
+            min-height: 50px;
+            width: 250px;
+            border: 2px solid $white-color;
+            background-color: $main-color;
+            border-radius: 23px;
+            -webkit-border-radius: 23px;
+            -moz-border-radius: 23px;
+            -ms-border-radius: 23px;
+            -o-border-radius: 23px;
+            background: linear-gradient( $yellow-one , $yellow-two);
+            margin-top: 10px !important;
+            margin-bottom: 10px !important;
+            color: $black-two;
+            font-weight: bold; 
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .additions_done
+        {
+            background: linear-gradient($blue-one , $blue-two);
+        }
+        .quantity_size_container
+        {
+            display: flex;
+            justify-content: center;            
+        }
+
+        button
+        {
+            font-weight: bold;
+            margin-bottom: 10px !important;
+
+            >span
+            {
+                color: $black-one;
+            }
+            .two
+            {
+                display: none;
+            }
+        }
+    }
+    .quantity ,  
+    .size
+    {
+        @media (max-width: 576px)
+        {
+            width: 80px;
+        }
+    }
+    h6
+    {
+        text-align: right;
+
+        @media (max-width: 576px)
+        {
+            font-size: .5rem
+        }
+    }
+    .cost
+    {
+        @media (max-width: 576px)
+        {
+            width: 80px;
+            margin-top: 10px;
+        }
+    }
+    .cost >div
+    {
+        min-height: 50px;
+        width: 150px;
+        border-radius: 23px; 
+        -webkit-border-radius: 23px;
+        -moz-border-radius: 23px;
+        -ms-border-radius: 23px;
+        -o-border-radius: 23px;
+        margin-top: 10px !important;
+        margin-bottom: 30px !important;
+        color: $black-two;
+        background: $white-color;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 0 5px;
+
+        @media (max-width: 576px)
+        {
+            width: 80px;
+            min-height: 30px;
+        }
+        
+        >span
+        {
+            color: $black-two;
+            font-size: 30px;
+
+            @media (max-width: 575.98px)
+            {
+                font-size: 19px;
+            }
+        }
+    }
+    .size_container{
+        @media (max-width: 576px)
+        {
+            width: 80px;
+            margin: 10px;
+        } 
+    }
+    .quantity
+    {
+        @media (max-width: 576px)
+        {
+            margin: 10px;
+        }
+    }
+    @media (max-width: 576px)
+    {
+        padding-bottom: 90px;
+    }
+} 

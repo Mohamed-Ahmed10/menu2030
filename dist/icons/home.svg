@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="60" height="60" viewBox="0 0 60 60">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#510016"/>
+      <stop offset="0.021" stop-color="#510016"/>
+      <stop offset="1" stop-color="#8b0016"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-2" x1="-51.576" y1="38.636" x2="-51.58" y2="38.602" xlink:href="#linear-gradient"/>
+    <linearGradient id="linear-gradient-3" x1="-482.959" y1="91.02" x2="-483.081" y2="90.97" xlink:href="#linear-gradient"/>
+    <clipPath id="clip-الرئيسية">
+      <rect width="60" height="60"/>
+    </clipPath>
+  </defs>
+  <g id="الرئيسية" clip-path="url(#clip-الرئيسية)">
+    <rect width="60" height="60" fill="#fff"/>
+    <g id="Group_3264" data-name="Group 3264" transform="translate(-512 -288)">
+      <circle id="Ellipse_73" data-name="Ellipse 73" cx="30" cy="30" r="30" transform="translate(512 288)" fill="#fff"/>
+      <g id="Group_453" data-name="Group 453" transform="translate(-396.242 -119.494)">
+        <g id="c14_house" data-name="c14 house" transform="translate(921.371 422.256)">
+          <path id="Path_2440" data-name="Path 2440" d="M931.414,458.547a.714.714,0,0,0,.656.767c.021,0,.043,0,.064,0,.935,0,8.665-.01,8.665-.01l.013-7.1s-.122-1.17,1.012-1.17h3.6a1.116,1.116,0,0,1,1.253.961,1.087,1.087,0,0,1,.008.209l-.015,7.078h8.482a.889.889,0,0,0,.913-.864.859.859,0,0,0,0-.092V445.233L944.1,434.6l-12.689,10.634Z" transform="translate(-926.74 -428.858)" fill="url(#linear-gradient)"/>
+          <path id="Path_2441" data-name="Path 2441" d="M921.371,437.643s1.076,1.985,3.427,0l14.043-11.88,13.165,11.806c2.72,1.961,3.739,0,3.739,0l-16.9-15.313Z" transform="translate(-921.371 -422.256)" fill="url(#linear-gradient-2)"/>
+          <path id="Path_2442" data-name="Path 2442" d="M982.641,429.734h-3.385l.014,4.107,3.371,2.862Z" transform="translate(-952.327 -426.255)" fill="url(#linear-gradient-3)"/>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

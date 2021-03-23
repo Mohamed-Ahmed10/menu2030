@@ -1,0 +1,19 @@
+- var pageTitle = 'الصفحة غير موجودة';
+<!DOCTYPE html>
+html(lang="en")
+    head
+        include pug/layout/meta
+        include pug/layout/fonts
+        include pug/layout/styles
+    body
+        include pug/layout/sidebar
+        include pug/layout/header
+        section#not-found-page
+            .row.content
+                img(src="images/not_found.png", alt="not found photo")
+                h2 نعتذر منك
+                h3 الصفحة غير موجودة
+                h5 يرجى التأكد من أنك متصل بشبكة الإنترنت او محاولة التواصل معنا عبر صفحات السوشيل ميديا في حالة ما كان الخطأ من الموقع
+                button إرسال
+        include pug/layout/footer
+        include pug/layout/scripts
