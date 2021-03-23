@@ -1,3 +1,7 @@
+There are the site creator notes
+
+----- All height , width or colors depend on customer need ---- 
+
 1- all double word html pages seperated by - 
 2- all double word icon or photo seperated by -
 3- all double word css classes written by snake_case 
