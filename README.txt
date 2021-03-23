@@ -17,7 +17,9 @@ There are the site creator notes
 	Sass Preprocessor
 	Gulp Task runner
 	JS liberary ( nice scroll )
-7- all HTML & CSS files are compressed with gulp .
+7- all HTML & CSS files are compressed with gulp to prettify it go to
+(https://www.freeformatter.com/html-formatter.html) for HTML 
+(https://www.freeformatter.com/css-beautifier.html) for css
 8- All files are attached (stage & dist ) .
 9- Package.json is attached to know what dependencies of the gulp .
 10- to run project type in CMD (npm i ) to download node modules .
