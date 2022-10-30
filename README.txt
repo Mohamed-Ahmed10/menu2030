@@ -1,3 +1,7 @@
+
+Created by Eng \ Mohamed Ahmed ( JULY 2020 )
+live preview : https://mohamed-ahmed10.github.io/menu2030/dist
+_____________________________________________________________________________________
 There are the site creator notes
 
 ----- All height , width or colors depend on customer need ---- 
@@ -27,6 +31,4 @@ There are the site creator notes
 12- all images (( as customer attached )) with extention jpg  AND all transperant background png  ((( ALL WITH  lower case ))) .
 13- all js custom code writtern with JQ not vanilla javascript .
 
-
-Created by Eng \ Mohamed Ahmed ( JULY 2020 )
 
